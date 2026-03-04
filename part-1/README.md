@@ -57,6 +57,7 @@ part-1/
 - Reading data (Read)
 
 ## Exercise performed
-- modified `add_sample_student()` to add different students with different names!
-
+```
+- modified 'add_sample_student()' to add different students with different names!
+```
 
