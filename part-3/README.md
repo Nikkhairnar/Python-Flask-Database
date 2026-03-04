@@ -80,7 +80,7 @@ This allows:
 in other words, create new teacher model exactly like student with all others things same
 (add new teacher,edit teacher,delete teacher)
 additional exercise - display list of students with course name and teacher name(taken from the course name)
-
+```python
 class Teacher(db.Model):  # Teacher table 
     id = db.Column(db.Integer, primary_key=True) [cite: 323]
     name = db.Column(db.String(100), nullable=False) [cite: 323]
@@ -95,12 +95,13 @@ The Route (in app.py):
 def teachers():
     all_teachers = Teacher.query.all() # Using ORM to fetch all teachers
     return render_template('teachers.html', teachers=all_teachers)
+```
 
 2. Exercise: One-to-Many Relationships
-
+```python
 class Course(db.Model):
     # ... columns ...
     # These lines automatically link courses to students and teachers
     students = db.relationship('Student', backref='course', lazy=True)
     teachers = db.relationship('Teacher', backref='course', lazy=True)
-
+```
