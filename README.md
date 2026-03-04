@@ -21,8 +21,8 @@ A step-by-step guide to learn Flask with databases - from basic SQLite to produc
 ```
 Easy ────────────────────────────────────► Advanced
 
-part-1 → part-2 → part-3 → part-4 → part-5 
-SQLite   CRUD     ORM      API      PostgreSQL  
+part-1 → part-2 → part-3 → part-4
+SQLite   CRUD     ORM     PostgreSQL  
 ```
 
 ---
