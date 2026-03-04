@@ -13,8 +13,7 @@ A step-by-step guide to learn Flask with databases - from basic SQLite to produc
 | **part-1** | Basic SQLite | Basic Flask app with SQLite connection and one simple table (Create & Read) |
 | **part-2** | Full CRUD | Full CRUD operations (Create, Read, Update, Delete) with HTML forms |
 | **part-3** | SQLAlchemy ORM | Flask-SQLAlchemy ORM integration with models and relationships |
-| **part-4** | REST API | REST API with Flask for database operations (JSON responses) |
-| **part-5** | Production DB | Switching to PostgreSQL/MySQL with environment configuration |
+| **part-4** | Production DB | Switching to PostgreSQL/MySQL with environment configuration |
 
 ## Difficulty Progression
 
