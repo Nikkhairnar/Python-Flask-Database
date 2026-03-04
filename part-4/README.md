@@ -124,7 +124,7 @@ export DATABASE_URL=postgresql://...
 
 ## Key Files
 ```
-part-7/
+part-4/
 ├── app.py              <- Database config with env vars
 ├── .env.example        <- Example environment file
 ├── templates/
