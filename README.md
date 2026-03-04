@@ -68,10 +68,7 @@ flask-database-starter/
 │   ├── app.py
 │   ├── templates/
 │   └── README.md
-├── part-4/                 <- REST API
-│   ├── app.py
-│   └── README.md
-├── part-5/                 <- PostgreSQL/MySQL
+├── part-4/                 <- PostgreSQL/MySQL
 │   ├── app.py
 │   ├── .env.example
 │   ├── templates/
@@ -87,8 +84,6 @@ flask-database-starter/
 - Flask request handling (GET, POST)
 - HTML forms and form data
 - Flask-SQLAlchemy ORM
-- Database relationships (One-to-Many)
-- REST API design
 - JSON responses
 - Environment variables
 - PostgreSQL/MySQL configuration
