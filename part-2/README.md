@@ -64,6 +64,7 @@ flash('Student added!', 'success')  # Show message once
 ## Exercises Performed
 1. Added a "Search" feature to find students by name
 
+```python
 @app.route('/')
 def index():
     # This line grabs what you typed in the search box
@@ -85,9 +86,10 @@ def index():
 
     conn.close() [cite: 1, 2]
     return render_template('index.html', students=students, search=search) [cite: 1, 2]
+```
 
 2. Added validation to check if email already exists before adding
-
+```python
 # Inside the @app.route('/add', methods=['GET', 'POST']) function:
 if request.method == 'POST':
     # ... (code to get name, email, course from form) ...
@@ -113,3 +115,4 @@ if request.method == 'POST':
         'INSERT INTO students (name, email, course) VALUES (?, ?, ?)',
         (name, email, course)
     ) [cite: 1, 2]
+```
